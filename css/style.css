@@ -1,4 +1,6 @@
-*{
+*
+{padding: 0%;
+  margin: 0%;
   box-sizing: border-box;
 }
 
@@ -10,6 +12,8 @@ html{
 
 body {
   font-family: 'Ubuntu', sans-serif;
+  font-size: 1.8rem;
+  background-color:rgba(214, 207, 207, 0.6)
 }
 /*[   Main HTMl attributes  ]*/
 
@@ -17,25 +21,45 @@ h1, h2{
   color: #5BAB1A;
 }
 h1 {
-  font-size: 4rem
+  font-size: 4rem;
+  margin: 1rem 0rem 2rem 1rem;
 }
 h2{
-  font-size: 2.5rem
+  font-size: 2.5rem;
+  margin-top:1rem;
+  margin-bottom: 1rem;
 }
 
-p{
-  font-size: 1.8rem;
+
+
+.main-text{
   text-align: justify;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300
-
+  font-weight: 300;
+  margin-bottom: 1rem;
 }
 
+#auther-text {
+  font-size: 2.2rem;
+}
+/*[ Home page container  ]*/
+.container{
+  width: 114.0rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+/*[ Blog post content  ]*/
+.blog-post{
+  background-color: #0000ff;
+}
 
+/*[ other post content  ]*/
+.other-post{
+  background-color: #00ff00;
+}
 
-
-
-
-
-
+/*[Author and other informations ]*/
+.author-box {
+  background-color: #ff0000;
+}
