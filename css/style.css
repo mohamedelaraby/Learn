@@ -47,12 +47,10 @@ h2{
   margin-bottom: 1rem;
 }
 
-#auther-text {
-  font-size: 2.2rem;
-}
 /*[ Home page container  ]*/
 .container{
   width: 114.0rem;
+  margin-top: 3rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -61,23 +59,62 @@ h2{
 .blog-post{
   width: 75%;
   float: left;
-  background-color: #0000ff;
+  position: relative;
 }
+
+.blog-post img {
+  height: 15rem;
+  width: auto;
+}
+
+
 
 /*[ other post content  ]*/
 .other-post{
   width: 25%;
   float: left;
-  background-color: #00ff00;
 }
+
+.other{
+  margin-bottom: 2rem;
+}
+
+
+
 
 /*[Author and other informations ]*/
 .author-box {
-  background-color: #ffff00;
+  width: 20rem;
+  height: 20rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  margin: 0 auto;
+  border: 0.1rem solid #808080
+}
+
+.author-box img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  float: left
 }
 
 
+#auther-text {
+  font-size: 2.2rem;
+  margin-top: 2rem;
+  margin-left: 4rem;;
+  float: left;
+}
 
+
+.date{
+  position:absolute;
+  top: 3rem;
+  right: 3rem;
+}
 
 
 
