@@ -6,13 +6,13 @@
  $(function(){
 
 //Animation
-$('.blue-box').animate({
-    marginLeft : "+=300px",
-    opacity : '0',
-    width : '50px',
-    height : '50px',
-    marginTop: '25px'
-}, 1000, "linear");
+// $('.blue-box').animate({
+//     marginLeft : "+=300px",
+//     opacity : '0',
+//     width : '50px',
+//     height : '50px',
+//     marginTop: '25px'
+// }, 1000, "linear");
 
 $("p").animate({
     fontSize : '18px',

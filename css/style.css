@@ -10,6 +10,14 @@ html{
   font-size: 62.50%;
 }
 
+
+/*Clear float issue*/
+.clearfix:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
 body {
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.8rem;
@@ -51,15 +59,47 @@ h2{
 
 /*[ Blog post content  ]*/
 .blog-post{
+  width: 75%;
+  float: left;
   background-color: #0000ff;
 }
 
 /*[ other post content  ]*/
 .other-post{
+  width: 25%;
+  float: left;
   background-color: #00ff00;
 }
 
 /*[Author and other informations ]*/
 .author-box {
+  background-color: #ffff00;
+}
+
+
+
+
+
+
+/*[ Test ]*/
+
+.blue-box,
+.red-box,
+.green-box{
+  width: 20rem;
+  height: 20rem;
+  margin-bottom: 1rem;
+}
+
+.blue-box{
+  background-color: #0000ff;
+}
+
+.red-box{
   background-color: #ff0000;
+  float: right
+}
+
+.green-box{
+  background-color: #00ff00;
 }
